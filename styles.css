@@ -1,0 +1,164 @@
+body{
+  margin: 10 auto;
+  width: 1200px;
+  font-family: monospace;
+
+}
+.botones{
+  margin: 10px;
+  padding: 10px;
+    text-align: center;
+}
+
+#instrucciones{
+  background: whitesmoke;
+  overflow: hidden;
+  clear: both;
+  text-align: center;
+}
+
+#variablesDiv{
+  background: whitesmoke;
+  width: 150px;
+  float: left;
+  height: auto;
+}
+
+#variablesDiv input{
+  width: 100px;
+}
+
+.variable{
+  margin: 10px;
+  padding: 10px;
+  background: #daff98;
+  border:1px solid black;
+  box-shadow: 5px 5px black;
+}
+
+.variable button{
+  float: right;
+}
+
+.close{
+
+}
+
+#demasInstrucciones{
+  overflow: hidden;
+  background: whitesmoke;
+}
+
+#demasInstrucciones div{
+  float: left;
+  overflow: auto;
+}
+
+.operacion{
+  margin: 10px;
+  padding: 10px;
+  background: #f29999;
+  border:1px solid black;
+  box-shadow: 5px 5px black;
+}
+
+.operacion button{
+  float: right;
+}
+
+.si{
+  margin: 10px;
+  padding: 10px;
+  background: #ffc966;
+  border:1px solid black;
+  box-shadow: 5px 5px black;
+
+}
+
+.si button{
+  float: right;
+}
+
+.titulo{
+  border-bottom:2px solid black;
+  color: black;
+}
+
+.repetir{
+  margin: 10px;
+  padding: 10px;
+  background: #a0e9ff;
+  border:1px solid black;
+  box-shadow: 5px 5px black;
+}
+
+.repetir   button{
+  float: right;
+}
+
+.repetir input{
+  width: 100px;
+}
+
+.imprimir{
+  margin: 10px;
+  padding: 10px;
+  background: #8d85ec;
+  border:1px solid black;
+  box-shadow: 5px 5px black;
+}
+
+.imprimir   button{
+  float: right;
+}
+
+#mensajes{
+  padding:10px;
+}
+
+body div{
+  transition: all ease .7s;
+  animation:fade .5s ease 1;
+}
+
+#textarea{
+  border:1px solid black;
+  transition: all ease .7s;
+  animation:fade .5s ease 1;
+  box-shadow: 5px 5px black;
+  background: #333;
+  color:white;
+}
+
+#textarea:active{
+  border:1px solid black;
+}
+
+#textarea2{
+  border:1px solid black;
+  transition: all ease .7s;
+  animation:fade .5s ease 1;
+  box-shadow: 5px 5px black;
+  background: #333;
+  color:white;
+  float: right;
+}
+
+#programas{
+  text-align: center;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+#programas p{
+  text-align: center;
+}
+
+#programas button{
+  margin-left: 10px;
+}
+
+@keyframes fade {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
